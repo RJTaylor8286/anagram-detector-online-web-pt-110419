@@ -6,3 +6,11 @@ class Anagram
   Anagram = "MOM"
   Anagram.match 
   
+  [MOM] == [MOM]
+  ==> true 
+  
+  [MOM] == [OMM]
+  ==> false 
+  
+  [OMM].sort == [MOM].sort
+  ==> true 
